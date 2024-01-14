@@ -1,0 +1,37 @@
+{
+  "name": "toddler-keyboard-fun",
+  "version": "1.0.0",
+  "description": "a fun toddler keyboard colorfluid simulation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config ./src/client/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timsamart/toddler-keyboard-fun.git"
+  },
+  "keywords": [
+    "toddler",
+    "keyboard",
+    "colors",
+    "fluid",
+    "dynamics",
+    "simulation"
+  ],
+  "author": "Timotheos Samartzidis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timsamart/toddler-keyboard-fun/issues"
+  },
+  "homepage": "https://github.com/timsamart/toddler-keyboard-fun#readme",
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "three": "^0.160.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
